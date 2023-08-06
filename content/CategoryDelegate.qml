@@ -24,7 +24,7 @@ Rectangle {
 
         font { pixelSize: 18; bold: true }
         text: name
-        color: selected ? "#004953 " : "red"
+        color: selected ? "black " : "white"
         scale: selected ? 1.15 : 1.0
         Behavior on color { ColorAnimation { duration: 150 } }
         Behavior on scale { PropertyAnimation { duration: 300 } }

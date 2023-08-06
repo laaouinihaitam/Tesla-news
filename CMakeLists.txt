@@ -1,5 +1,3 @@
-# Copyright (C) 2022 The Qt Company Ltd.
-# SPDX-License-Identifier: BSD-3-Clause
 
 cmake_minimum_required(VERSION 3.16)
 project(rssnews LANGUAGES CXX)
@@ -53,6 +51,8 @@ set(rssnews_resource_files
     "content/images/btn_close.png"
     "content/images/busy.png"
     "content/images/scrollbar.png"
+    "content/images/ziyech.png"
+    "content/images/morocco.jpg"
     "rssnews.qml"
 )
 
